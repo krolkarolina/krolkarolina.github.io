@@ -1,0 +1,42 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav {
+	flex-basis: 100%;
+	padding-top: 0px;
+}
+
+h1 {
+	background-image: url("images/tlo.jpg");
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding-top: 90px;
+}
+
+footer {
+	flex-basis: 100%;
+	background-color: #8cf7ed;
+	text-align: center;
+	padding: 50px;
+}
+
+.first {
+	flex-basis: 70%;
+	height: 800px;
+	float: right;
+}
+
+aside {
+	flex-basis: 30%;
+}
+
+img {
+	width: 250px;
+	height: 350px;
+	float: left;
+	padding: 10px;
+}
